@@ -61,7 +61,7 @@ public class Main {
         System.out.println("2- Conta Poupança");
         int tipo = scanner.nextInt();
 
-        Conta conta = null;
+        Conta conta;
 
         if (tipo == 1)
             conta = new ContaCorrente(cliente);
